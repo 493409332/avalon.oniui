@@ -245,6 +245,7 @@ define(["avalon","text!./avalon.tab.html", "text!./avalon.tab.panels.html", "tex
                 })
                 vm.tabs.push({
                     title: title,
+                    name: config.name || title,//添加一个name 属性方便根据name 选择选项卡
                     removable: config.removable,
                     disabled: false
                 })
@@ -334,6 +335,22 @@ define(["avalon","text!./avalon.tab.html", "text!./avalon.tab.panels.html", "tex
                 } else {
                     vm.prevEnable = 1
                 }
+            }
+            //判断是否存在,存在则选择对应选项卡
+            vm.selecttabname = function (name)
+            {
+                var i;
+                var exists = false;
+                for (i = 0; i < vmodel.tabs.length; i++)
+                {
+                    if (typeof (vmodel.tabs[i].name) != "undefined" && vmodel.tabs[i].name != "" && vmodel.tabs[i].name == name)
+                    {
+                        vmodel.active = i;
+                        exists = true;
+                        break;
+                    }
+                }
+                return exists;
             }
             return vm
         })
