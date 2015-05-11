@@ -37,6 +37,15 @@ define(["./avalon.tree", "css!./tree-menu.css"], function () {
 	        } else {
 	            ele.addClass("oni-menu-tree-hidden")
 	        }
+	        var avalonvms = avalon.vmodels;
+	        for (vm in avalonvms)
+	        {
+	            if (typeof (avalonvms[vm].$guid) != "undefined" && avalonvms[vm].$guid != "" && avalonvms[vm].$guid == $guid)
+	            {
+	                avalonvms[vm].toggleMenuTreeBack(avalonvms[vm]);
+	            }
+	        }
+
 	    },
 	    onInit: function(vmodel) {
 	        var ele = avalon(this)
@@ -46,6 +55,6 @@ define(["./avalon.tree", "css!./tree-menu.css"], function () {
 	        ele.bind("mouseleave", function(e) {
 	            ele.removeClass("oni-state-hover")
 	        })
-	    }
+	    }, toggleMenuTreeBack: function (vm) { alert(1) }
 	}
 })

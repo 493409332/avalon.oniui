@@ -1,16 +1,47 @@
 {
-  "name": "oniui",
-  "version": "0.2.8",
-  "description": "基于avalon的组件库,由去哪儿网前端架构组倾力打造",
-  "scripts": {
-    "test": "elves"
+  "name": "avalon",
+  "title": "avalon",
+  "description": "A lightweight,high-performance and easy-to-learn javascript MVVM framework",
+  "version": "1.4.2",
+  "main": "avalon.js",
+  "homepage": "http://avalonjs.github.io/",
+  "author": {
+    "name": "RubyLouvre(司徒正美) and other contributors",
+    "url": "http://home.cnblogs.com/u/rubylouvre/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RubyLouvre/avalon.oniui.git"
+    "url": "https://github.com/avalon/avalon.git"
   },
+  "keywords": [
+    "mvvm",
+    "javascript",
+    "browser",
+    "library"
+  ],
   "bugs": {
-    "url": "https://github.com/RubyLouvre/avalon.oniui/issues"
+    "url": "https://github.com/avalon/avalon/issues"
   },
-  "homepage": "http://ued.qunar.com/oniui/home.htm"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jquery/jquery/blob/master/LICENSE.txt"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-uglify": "1.1.0",
+    "gulp-rename": "1.2.0",
+    "gulp-jshint": "1.9.2",
+    "gulp-replace": "0.5.2",
+    "grunt-contrib-watch": "0.6.1",
+    "gulp-concat": "2.4.3"
+  },
+  "scripts": {
+    "build": "npm install && gulp"
+  },
+  "commitplease": {
+    "components": []
+  }
 }

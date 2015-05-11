@@ -1,309 +1,316 @@
+# Avalon
 
-avalon.oniui
-==========================
-基于avalon的组件库,由<a href="http://ued.qunar.com/">去哪儿网</a>前端架构组倾力打造
-<p>当前进度表</p>
-<ul>                                       
-    <li>UI组件，有界面的，通过ms-widget调用</li>
-    <li>功能组件，没有界面的，添加辅助性功能的 </li>
-</ul>
-<table border="1" width="90%">
-    <tr>
-        <th>名称</th><th>类别</th><th>状态</th><th>说明</th>
-    </tr>
-    <tr>
-        <td colspan=4>第1期</td>
-    </tr>
-    <tr>
-        <td>hotkeys</td><td>功能组件</td><td>完成</td><td>钟，组合键</td>
-    </tr>
-    <tr>
-        <td>position</td><td>功能组件</td><td>完成</td><td>杨，定位</td>
-    </tr>
-    <tr>
-        <td>draggable</td><td>功能组件</td><td>完成</td><td>钟，拖拽</td>
-    </tr>
-    <tr>
-        <td>resizable</td><td>功能组件</td><td>完成</td><td>钟，缩放</td>
-    </tr>
-    <tr>
-        <td>checkboxlist</td><td>UI组件</td><td>完成</td><td>田，全选非全选</td>
-    </tr>
-    <tr>
-        <td>textbox+suggest</td><td>UI组件</td><td>完成</td><td>田，文本域及智能提示</td>
-    </tr>
-    <tr>
-        <td>at</td><td>UI组件</td><td>完成</td><td>钟，@提示列表</td>
-    </tr>
-    <tr>
-        <td>pager</td><td>UI组件</td><td>完成</td><td>钟，分页栏</td>
-    </tr>
-    <tr>
-        <td>dialog</td><td>UI组件</td><td>完成</td><td>田，弹出层 </td>
-    </tr>
-    <tr>
-        <td>grid</td><td>UI组件</td><td>完成</td><td>钟， 表格</td>
-    </tr>
-    <tr>
-        <td>according</td><td>UI组件</td><td>完成</td><td>田， 手风琴</td>
-    </tr>
-    <tr>
-        <td>slider</td><td>UI组件</td><td>完成</td><td>田，滑动条 </td>
-    </tr>
-    <tr>
-        <td>flipswitch</td><td>UI组件</td><td>完成</td><td>杨， 拖动切换 </td>
-    </tr>
-    <tr>
-        <td>tabs</td><td>UI组件</td><td>完成</td><td>杨， 切换卡 </td>
-    </tr>
-    <tr>
-        <td>spinner</td><td>UI组件</td><td>完成</td><td>田，数字输入框 </td>
-    </tr>
-    <tr>
-        <td>progressbar</td><td>UI组件</td><td>完成</td><td>杨， 进度条</td>
-    </tr>
-    <tr>
-        <td>dropdown</td><td>UI组件</td><td>完成</td><td>姚，下拉框</td>
-    </tr>   
-    <tr>
-        <td>switchdropdown</td><td>UI组件</td><td>完成</td><td>姚，切换下拉框(图标加提示)</td>
-    </tr>
-    <tr>
-        <td>miniswitch</td><td>UI组件</td><td>完成</td><td>姚， 迷你下拉框(只有图标)</td>
-    </tr>
-    <tr>
-        <td>tooltip</td><td>UI组件</td><td>完成</td><td>杨，气泡提示（有小三角，围绕元素的任意位置出现） </td>
-    </tr>
-    <tr>
-        <td>notice</td><td>UI组件</td><td>完成</td><td>田，信息提示（能并排出现）</td>
-    </tr>
-    <tr>
-        <td>doublelist</td><td>UI组件</td><td>完成</td><td>姚，角色选择</td>
-    </tr>
-    <tr>
-        <td>datepicker</td><td>UI组件</td><td>完成</td><td>田， 日期选框器</td>
-    </tr>
-    <tr>
-        <td>scrollbar</td><td>UI组件</td><td>完成</td><td>杨， 滚动条</td>
-    </tr>
-    <tr>
-        <td colspan=4>第2期</td>
-    </tr>
-   <tr>
-        <td>json</td><td>功能组件</td><td>完成</td><td>钟，json2</td>
-    </tr>
-    <tr>
-        <td>cookie</td><td>功能组件</td><td>完成</td><td>钟，cookie</td>
-    </tr>
-    <tr>
-        <td>store</td><td>功能组件</td><td>完成</td><td>钟，本地储存</td>
-    </tr>
-    <tr>
-        <td>promise</td><td>功能组件</td><td>完成</td><td>钟, es6的Promise组件</td>
-    </tr>
-    <tr>
-        <td>colorpicker</td><td>UI组件</td><td>完成</td><td>王，颜色选择器</td>
-    </tr>
-    <tr>
-        <td>lazyload</td><td>功能组件</td><td>完成</td><td>懒加载</td>
-    </tr>
-    <tr>
-        <td>editor</td><td>UI组件</td><td></td><td>富文本编辑器</td>
-    </tr>
-    <tr>
-        <td>menu</td><td>UI组件</td><td>完成</td><td>多级菜单</td>
-    </tr>
-    <tr>
-        <td>tree</td><td>UI组件</td><td>开发中</td><td>树</td>
-    </tr>
-    <tr>
-        <td>waterfall</td><td>UI组件</td><td></td><td>瀑布流</td>
-    </tr>
-    <tr>
-        <td> button</td><td>UI组件</td><td>完成</td><td>按钮</td>
-    </tr>
-    <tr>
-        <td> carousel</td><td>UI组件</td><td>完成</td><td>单个照片http://owlgraphic.com/owlcarousel/demos/custom.html</td>
-    </tr>
-    <tr>
-        <td> rating</td><td>UI组件</td><td>完成</td><td>林 星级评分</td>
-    </tr>
-    <tr>
-        <td> uploader</td><td>UI组件</td><td>完成</td><td> 上传</td>
-    </tr>
-    <tr>
-        <td>preview</td><td>UI组件</td><td>完成</td><td>钟， 图片预览</td>
-    </tr>  
-    <tr>
-        <td>scrollspy</td><td>UI组件</td><td>完成</td><td>杨， 滚动监听</td>
-    </tr>
-    <tr>
-        <td> imagecropper</td><td>UI组件</td><td></td><td> 图片剪切</td>
-    </tr>
-    <tr>
-        <td> validator</td><td>功能组件</td><td>完成</td><td> 验证框架</td>
-    </tr>
-</table>
-如何使用OniUI
-==========================
-<ul>
-   <li>将项目下载地本地</li>
-   <li>如果有netBeans的同学，可以直接新建一个项目，将它放在里面，然后点击上方的运行（R）菜单，设置项目浏览器，然后在IDE左方找到index.html文件，右键运行</li>
-   <li>其他同学可以到<a href="https://github.com/RubyLouvre/avalon">avalon项目</a>，将它的server.exe（一个迷你的.Net服务器）文件拷过来，然后运行它，选中index.html打开</li>
-</ul>
-<img src="https://raw.githubusercontent.com/RubyLouvre/avalon.oniui/master/style/homepage.jpg"/>
-license
-==========================
-MIT
-如何为OniUI贡献一套新的皮肤
-==========================
-<b>chameleon</b>是OniUI的皮肤生成系统,基于sass的compass框架改写而成.
-直接路径下有oniui-theme.scss,oniui-common.scss这两个文件, 
-其中oniui-common.scss会生成oniui-common.css,这个文件所有UI组件都应该引用,如simplegrid.js就是这样引用
-```javascript
+A lightweight,high-performance and easy-to-learn javascript MVVM framework
 
-define(["avalon",
-    "text!./avalon.simplegrid.html",
-    "pager/avalon.pager",
-    "scrollbar/avalon.scrollbar",
-    "css!../chameleon/oniui-common.css",
-    "css!./avalon.simplegrid.css"
-], function(avalon, tmpl) {
-   //....
+* Avalon now has 3 versions: `avalon.js` for IE6+ and modern browsers (including Webkit/Chromium based browsers), `avalon.modern.js` for IE10+ and HTML5 standard browsers and `avalon.mobile.js`, which added `Touch Event`, `Pointer Event` and `fastclick` support for mobile devices. For requirejs or AMD-like loader, use the corresponding shim version.
+* The component libraries are now maintained by [Qunar UED(Chinese page)](http://ued.qunar.com/). First here are the three pillars: 1. [mmRouter](https://github.com/RubyLouvre/mmRouter) for router, 2. [mmAnimate](https://github.com/RubyLouvre/mmAnimate) for animation, 3. [mmRequest](https://github.com/RubyLouvre/mmRequest) for AJAX utils; and the UI component OniUI, you can check it out [at here](https://github.com/RubyLouvre/avalon.oniui)
+* The test cases are in an individual repository: [avalon.test](https://github.com/RubyLouvre/avalon.test)
 
-})
+## HomePage
+  [http://avalonjs.github.io/](http://avalonjs.github.io/)
+
+  [Fork it](https://github.com/avalonjs/avalonjs.github.io)
+
+##Loader
+Avalon uses a amd-style loader. If you like nodejs's commonjs loader, you can use [this tools](https://github.com/ilife5/cat) this tool </a> 
+to converts amd to commonjs.
+ 
+## Advantages
+
+    One absolute advantage is that the framework eliminates
+    couplings and frees developers from varies of
+    complex event handling.
+
+    For example, one state could be effected by the order 
+    of several events and their additional arguments, making the 
+    logic extremely complex and fragile without using MVC 
+    (including MVVM) framework and might usually maintain lots of 
+    mutuality logics which can easily cause bugs at the same time.
+
+    By using these sort of framework, one can totally reduce the 
+    difficulty of app development, and make the code more robust.
+
+    Besides, it also frees developers from the repeated tasks,
+    like `{value}` directive can simply replace 
+    `$(selector).text(value)`, what's more, some common directive
+    can also implement some logics swiftly.
+
+Here are some of the benefits:
+
+* Easy to use. Just add binding code in HTML, then define ViewModels in JavaScript code, finally invoke `avalon.scan()`, enjoy!
+* Compatible with IE6+ (*Very Important* in China at present / Others: KnockoutJS(IE6+), AngularJS(IE9+), EmberJS(IE8+), WinJS(IE9+)), For more efficient and edge developers, use: `avalon.modern`.
+* No dependencies, less than 5000 lines of code and at 50KiB size of compressed code.
+* Support filter function using pipe symbol `|`, easy for output formatting.
+* Partial refreshing are accurated to every text/attribute node.
+* No need to use selector, as the node to manipulate has all been binded and cached to the view refreshing function at the initial scanning procedure.
+* You need to write DOM manipulation code slightly, either.
+* By using cascading render mechanism like CSS, ViewModels can render their views alternately.
+* While removing the node, the framework can detach the watching function of the corresponding views, reducing memory usage.
+* *Data Manipulation as DOM Manipulation*, actions on ViewModels will all be synchronized to the relevant Views and Models.
+* Ships with a built-in AMD loader.
+
+## To compress javascript files, run:
+
+```sh
+java -jar compiler.jar --js avalon.js --js_output_file avalon.min.js
+java -jar compiler.jar --js avalon.modern.js --js_output_file avalon.modern.min.js
+java -jar compiler.jar --js avalon.mobile.js --js_output_file avalon.mobile.min.js
+```
+
+Demo:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>avalon 101</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="avalon.js" ></script>
+        <script>
+            var first = 0;
+            var model = avalon.define({
+                $id: "test",
+                firstName: "John",
+                lastName: "Smith",
+                fullName: {//a object that contain set/get will be treated as an `PropertyDescriptor`,
+                    set: function(val) {//must use `this` to refer `scope` instead of using `scope` directly 
+                        var array = (val || "").split(" ");
+                        this.firstName = array[0] || "";
+                        this.lastName = array[1] || "";
+                    },
+                    get: function() {
+                        return this.firstName + " " + this.lastName;
+                    }
+                },
+                arr: ["aaa", "bbb", "ccc", "ddd"],
+                selected: ["bbb", "ccc"],
+                checkAllbool: false,
+                checkAll: function() {
+                    if (!first) {
+                        first++
+                        return
+                    }
+                    if (this.checked) {
+                        model.selected = model.arr
+                    } else {
+                        model.selected.clear()
+                    }
+                },
+                checkOne: function() {
+                    var bool = this.checked
+                    if (!bool) {
+                        model.checkAllbool = false
+                    } else {
+                        model.checkAllbool = model.selected.size() === model.arr.length
+                    }
+                }
+            })
+
+        </script> 
+    </head>
+    <body>
+        <div ms-controller="test">
+            <p>First name: <input ms-duplex="firstName" /></p>
+            <p>Last name: <input ms-duplex="lastName"  /></p>
+            <p>Hello,    <input ms-duplex="fullName"></p>
+            <div>{{firstName}} | {{lastName}}</div>
+            <ul>
+                <li><input type="checkbox" ms-duplex-checked="checkAllbool"  data-duplex-changed="checkAll"/>Select All</li>
+                <li ms-repeat="arr" ><input type="checkbox" ms-attr-value="el" ms-duplex="selected" data-duplex-changed="checkOne"/>{{el}}</li>
+            </ul>
+        </div>
+
+    </body>
+</html>
+```
+
+More examples are at [here](https://github.com/RubyLouvre/avalon/tree/master/examples).
+
+The code structure of the source code are listed here, from top to bottom:
+
+* global vars and methods
+* the static member methods of avalon (mainly util functions)
+* JavaScript polyfills
+* DOM polyfills
+* configuration system
+* event bus
+* the ViewModel factory (modelFactory)
+* watch collection factory (Collection)
+* dependency dispatcher system (dispatcher)
+* manipulation functions of tags (parseHTML, innerHTML, clearHTML)
+* scan system
+* the prototype methods definiton of avalon (mainly related to DOM manipulation)
+* directive definiton
+* compile system
+* builtin filters
+* AMD Loader
+* DOMReady
+
+--------------------------------------------------
+
+# Avalon
+
+迷你简单易用的MVVM框架
+
+前端做久了就会发现HTML(DOM)才是所有前端的真正精髓汇聚地。不管JS和CSS都是为DOM服务的。但是DOM遍布荆棘与陷阱，因此才出现像jQuery那样专门为它填坑的库，
+当下的前端开发就是一边填坑一边写业务中进行。avalon的诞生改变了这一切，让我们摆脱DOM的掣肘，专注于需求本身，将可变的数据与操作数据的方法封装成模型。
+在更高的层次上组织代码，提高软件的可维护性，可扩展性和可重用性。
+
+* * *
+
+*  [avalon](https://github.com/RubyLouvre/avalon)现在有三个分支:avalon.js 兼容IE6，标准浏览器, 及主流山寨浏览器(QQ, 猎豹, 搜狗, 360, 傲游);
+avalon.modern.js 则只支持IE10等支持HTML5现代浏览器 ;
+avalon.mobile.js，添加了触屏事件与fastclick支持，用于移动端；
+如果使用requirejs或其它amd加载器（非avalon自带的amd加载器），使用对应的shim版本。shim版本去除了avalon自带amd加载器代码。
+*  [avalon](https://github.com/RubyLouvre/avalon)拥有强大的组件库，现在由去哪儿网前端架构组在维护与升级，[这里](http://ued.qunar.com/)；首先是三柱臣，想使用路由器，可以用[mmRouter](https://github.com/RubyLouvre/mmRouter)， 想使用动画，可以用[mmAnimate](https://github.com/RubyLouvre/mmAnimate)， 想使用AJAX，可以用[mmRequest](https://github.com/RubyLouvre/mmRequest)； 其次是[OniUI](https://github.com/RubyLouvre/avalon.oniui)，树组件差不多开发完毕，届时就有一个拥有2个Grid，1个树，1 个验证插件等总数近50个UI组件的库了。
+* avalon的测试比较庞大，放在独立的仓库中——[avalon.test](https://github.com/RubyLouvre/avalon.test)
+
+优势
+======
+```
+绝对的优势就是降低了耦合, 让开发者从复杂的各种事件中挣脱出来. 举一个简单地例子, 
+同一个状态可能跟若干个事件的发生顺序与发生时的附加参数都有关系, 
+不用 MVC (包括 MVVM) 的情况下, 逻辑可能非常复杂而且脆弱. 
+并且通常需要在不同的地方维护相关度非常高的一些逻辑, 
+稍有疏忽就会酿成 bug 不能自拔. 使用这类框架能从根本上降低应用开发的逻辑难度, 并且让应用更稳健.
+
+除此之外, 也免去了一些重复的体力劳动, 一个 {value} 就代替了一行 $(selector).text(value),
+一些个常用的 directive 也能快速实现一些原本可能需要较多代码才能实现的功能
+```
+* 使用简单，在HTML中添加绑定，在JS中用avalon.define定义ViewModel，再调用avalon.scan方法，它就能动了！
+* 兼容到 **IE6** (其他MVVM框架，KnockoutJS(IE6), AngularJS(IE9), EmberJS(IE8), WinJS(IE9) )，另有avalon.mobile，它可以更高效地运行于IE10等新版本浏览器中
+* 没有任何依赖，不到5000行，压缩后不到50KiB
+* 支持管道符风格的过滤函数，方便格式化输出
+* 局部刷新的颗粒度已细化到一个文本节点，特性节点
+* 要操作的节点，在第一次扫描就与视图刷新函数相绑定，并缓存起来，因此没有选择器出场的余地。
+* 让DOM操作的代码近乎绝迹
+* 使用类似CSS的重叠覆盖机制，让各个ViewModel分区交替地渲染页面
+* 节点移除时，智能卸载对应的视图刷新函数，节约内存
+* **操作数据即操作DOM**，对ViewModel的操作都会同步到View与Model去
+* 自带AMD模块加载器，省得与其他加载器进行整合
+
+学习教程
+======
+*  [avalon学习教程](http://www.html-js.com/article/column/234)
+*  [avalon新官网](http://avalonjs.github.io/)
+*  [avalon-learning](http://limodou.github.io/avalon-learning/zh_CN/index.html)
+*  [入门教程](http://www.cnblogs.com/rubylouvre/p/3181291.html)
+*  [HTML5交流会有关avalon的PPT](http://vdisk.weibo.com/s/aMO9PyIQCnLOF/1375154475)
+*  [avalon最佳实践](http://www.cnblogs.com/rubylouvre/p/3385373.html)
+*  [《avalon探索之旅》系列视频教程](http://edu.51cto.com/course/course_id-2533-page-1.html)
+
+### 运行github中的示例
+
+将项目下载到本地，里面有一个叫server.exe的.Net小型服务器（可能需要安装[.Net4.0](http://dl.pconline.com.cn/download/54972.html)才能运行），
+点击它然后打开里面与index开头的HTML文件，一边看运行效果，一边看源码进行学习。
+
+![](https://raw.github.com/RubyLouvre/avalon/master/examples/images/example.jpg)
+
+###加载器
+avalon是使用自带AMD式加载器,如果你喜欢nodejs那种commonjs风格加载器,你可以用[这个工具](https://github.com/ilife5/cat)进行转换。
+
+### JS文件的压缩
+```
+java -jar compiler.jar --js avalon.js --js_output_file avalon.min.js
+java -jar compiler.jar --js avalon.modern.js --js_output_file avalon.modern.min.js
+java -jar compiler.jar --js avalon.mobile.js --js_output_file avalon.mobile.min.js
 
 ```
-oniui-theme.scss是用于每个组件对应的scss文件引用的,如avalon.simplegrid.js
-肯定与一个叫avalon.simplegrid.scss文件放在一块,这scss里开头就是这样写的:
-```css
-@charset "utf-8";
-@import "../chameleon/oniui-theme";
-$uiname : "ui-simplegrid";
+大家也可以在[新浪微博](http://huati.weibo.com/k/avalon%E5%BF%AB%E6%8A%A5?from=501&order=time)第一时间了解它的变更或各种秘笈分享！
 
-.#{$uiname}{
-    width:100%;
-    border: 1px solid $ui-state-default-border-color;
-    @extend %oniui-font-setting;
-    .#{$uiname}-scroll-wrapper{
-        width:100%;
-        overflow:auto;
-        position: relative;
 
-    }
-   //....
-}
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>avalon 101</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="avalon.js" ></script>
+        <script>
+            var first = 0;
+            var model = avalon.define({
+                $id: "test",
+                firstName: "司徒",
+                lastName: "正美",
+                fullName: {//一个包含set或get的对象会被当成PropertyDescriptor,
+                    set: function(val) {//m里面必须用this指向scope，不能使用scope 
+                        var array = (val || "").split(" ");
+                        this.firstName = array[0] || "";
+                        this.lastName = array[1] || "";
+                    },
+                    get: function() {
+                        return this.firstName + " " + this.lastName;
+                    }
+                },
+                arr: ["aaa", "bbb", "ccc", "ddd"],
+                selected: ["bbb", "ccc"],
+                checkAllbool: false,
+                checkAll: function() {
+                    if (!first) {
+                        first++
+                        return
+                    }
+                    if (this.checked) {
+                        model.selected = model.arr
+                    } else {
+                        model.selected.clear()
+                    }
+                },
+                checkOne: function() {
+                    var bool = this.checked
+                    if (!bool) {
+                        model.checkAllbool = false
+                    } else {
+                        model.checkAllbool = model.selected.size() === model.arr.length
+                    }
+                }
+            })
 
+        </script> 
+    </head>
+    <body>
+        <div ms-controller="test">
+            <p>First name: <input ms-duplex="firstName" /></p>
+            <p>Last name: <input ms-duplex="lastName"  /></p>
+            <p>Hello,    <input ms-duplex="fullName"></p>
+            <div>{{firstName}} | {{lastName}}</div>
+            <ul>
+                <li><input type="checkbox" ms-duplex-checked="checkAllbool"  data-duplex-changed="checkAll"/>Select All</li>
+                <li ms-repeat="arr" ><input type="checkbox" ms-attr-value="el" ms-duplex="selected" data-duplex-changed="checkOne"/>{{el}}</li>
+            </ul>
+        </div>
+
+    </body>
+</html>
 ```
-正通过这样严格的组件,我们的OniUI就可以<b>修改</b>两处实现全库的换肤功能
-第一处位于chameleon/compass/_config.scss文件中,里面有
-@import "themes/smoothness" ;
-$oinui-theme: smoothness !global;
-这两个地方修改
+### 源码内部的模块划分
 
-第二处是chameleon/compass/theme目录中,因为我们现在的皮肤叫smoothness,
-那么就在它里面建一个叫smoothness.scss文件
-以后你要添加一个叫sunny的皮肤,那么对应处改成
-@import "themes/sunny" ;
-$oinui-theme: sunny !global;
-自己再建一个sunny.scss文件就行了
+从上至下，依次是
 
-我们再看一下这皮肤里面的规则是怎么搞的
-```csss
-@charset "utf-8";
-// 两种主色调 银灰浅蓝
-// 激活的蓝色为天蓝色 #3775c0   
-// hover上去为浅灰色  #f8f8f8
-// 普通的底色为银灰色 #d9d9d9
-// 银灰底色对应的边框色为深灰色:#cccccc;
+- 全局变量及方法
+- avalon的静态成员定义区（主要是工具函数）
+- JavaScript 底层补丁
+- DOM        底层补丁
+- 配置系统
+- 事件总线
+- VM工厂（modelFactory）
+- 监控数组工厂(Collection)
+- 依赖调度系统(dispatcher)
+- 标签处理(parseHTML, innerHTML, clearHTML)
+- 扫描系统
+- avalon的原型方法定义区（主要是DOM处理）
+- 指令定义区
+- 编译系统
+- 自带过滤器
+- AMD加载器
+- DOMReady
 
-//两个用到的绿色 #3e973e(深) #68c969（浅）
+### LOGO来历
 
-
-// 正常的字体颜色为黑色: #000;
-// slider的激活蓝色为 #22dddd;
-
-// input[type=text]，input[type=password],textarea的样式
-//┌───┬────┬────┬────┬────┬────┐
-//│状态  │default │ hover  │active  │diabled │error   │
-//├───┼────┼────┼────┼────┼────┤
-//│边框  │#cccccc │#999999 │active  │#3775c0 │#ff8888 │
-//├───┼────┼────┼────┼────┼────┤
-//│背景  │#ffffff │#ffffff │#ffffff │#f5f5f5 │#fffff  │
-//├───┼────┼────┼────┼────┼────┤
-//│文字  │#000000 │#000000 │#000000 │#999999 │#ff8888 │
-//└───┴────┴────┴────┴────┴────┘
-//字体设置
-$oniui-font-size: 1em;
-$oniui-font-weight: normal;
-$oniui-font-family: Helvetica,Arial,Sans-serif;
-
-$oniui-icon-start-color: #58b359;
-$oniui-icon-pause-color: #333;
-$oniui-icon-state-hover-color: #fff;
-$oniui-icon-state-active-color: #fff;
-
-//通用阴影
-$oniui-shadow-box: 2px 2px 3px 0 rgba(0, 0, 0, 0.1);
-
-
-$ui-widget-content-border-color:#3e973e!global;
-$ui-widget-content-background-color:#68c969!global;
-$ui-widget-content-color:#fff!global;
-
-$ui-widget-header-border-color: #aaa!global;
-$ui-widget-header-background-color: rgb(223,223,223)!global;
-$ui-widget-header-color: #fff!global;
-
-$ui-state-default-background-color: #e6e6e6!global;
-$ui-state-default-border-color: #d4d4d4!global;
-$ui-state-default-color: #555!global;
-//移上去时
-$ui-state-hover-background-color: #f8f8f8!global;
-$ui-state-hover-border-color: #f8f8f8!global;
-$ui-state-hover-color: #000!global;
-//激活状态(蓝色)
-$ui-state-active-background-color:#3775c0 !global;
-$ui-state-active-border-color: #3775c0!global;
-$ui-state-active-color: #fff!global;
-//禁用(灰色)
-$ui-state-disabled-background-color: #F5F5F5!global;
-$ui-state-disabled-border-color: #D9D9D9!global;
-$ui-state-disabled-color: #999!global;
-
-//出错（红色）
-$ui-state-error-background-color: #ff8888!global;
-$ui-state-error-border-color: #ff8888!global;
-$ui-state-error-color: #ff8888!global;
-
-```
-你只要将对应位置的颜色值改一下就行了。avalon的组件是分成高亮区，底色区与可变区。
-
-高亮区通过添加.ui-widget-content类名标识，底色区添加.ui-widget-header类名标识；
-可变区通过添加不同的类名来判定它的状态实现，一般分正常，hover, 激活，禁用，禁用，出错这几种状态。
-它们分别添加.ui-state-default, .ui-state-hover, .ui-state-active, .ui-state-disabled, .ui-state-error类名实现。
-悄悄话一句，这其实是抄自jquery ui的皮肤系统。
-如果有的组件比较奇特，需要区别对待，那么我们可以在对应的scss文件中，如
-```scss
-@if($oinui-theme == smoothness){
-    $ui-state-hover-background-color:#E8F5FD;
-}
-```
-改成这些，重新编译一下就行了。
-
-LOGO的来历
-==========================
-Oni日语为鬼, 可以美化一下叫英灵
-在fate/Zero这部动画中, 最强大的英灵就是"金闪闪"吉尔伽美什
-而吉尔伽美什对应的咒令就是 远坂时臣的那个
-<div><img src="http://i.imgur.com/jezsx.jpg"/></div>
-<div><img  src="http://i-7.vcimg.com/crop/26fb9dd7fa1a77169a869b31df5b576f12700(280x)/thumb.jpg"/></div>
-<div><a href="<div><a href=""><img width=400 height=300 src="http://www.fate-zero.jp/talksession/img/talk_bg-archer.jpg"/></a></div>
-http://baike.baidu.com/view/2850010.htm
-http://baike.baidu.com/subview/666734/7383298.htm?fromtitle=FateZero&fromid=5097473&type=syn#6_4
-
-https://github.com/jxnblk/loading
-http://touch.code.baidu.com/
-
-移动端上的皮肤
-http://goratchet.com/components/
+http://tieba.baidu.com/p/1350048586
+<pre>
+MVVM最先使用是在WPF，对于微软来说是从WinForm的MVP和其余的MVC衍生而来，
+比MVP/MVC做到更多的就是数据的Binding，
+使得数据的变化能即时以增量的形式反馈到View上。
+同理的实现好像还有iOS delegate，为MVC提供类似binding的Publish/Subscribe功能
+</pre>
